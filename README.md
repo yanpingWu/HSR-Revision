@@ -27,7 +27,7 @@ HSR/
     └── wikisign/
 ```
 
-Each dataset folder ships exactly two files:
+Each dataset folder contains exactly two files:
 
 - `graph.txt`  — the directed signed graph (one edge per line: `source target sign`,
   with `sign ≥ 1` for a positive edge and `sign ≤ 0` for a negative edge).
